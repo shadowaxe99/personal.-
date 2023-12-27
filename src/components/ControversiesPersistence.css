@@ -1,0 +1,74 @@
+```css
+/* ControversiesPersistence.css */
+
+.controversies-persistence-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.controversies-persistence-title {
+  font-size: 2rem;
+  color: #212529;
+  margin-bottom: 1rem;
+}
+
+.controversies-persistence-content {
+  max-width: 800px;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.controversies-persistence-highlight {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.controversies-persistence-focus {
+  background-color: #e9ecef;
+  border-left: 4px solid #dc3545;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.controversies-persistence-resilience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.controversies-persistence-resilience-icon {
+  font-size: 2rem;
+  color: #155724;
+}
+
+.controversies-persistence-resilience-text {
+  flex-grow: 1;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #155724;
+}
+
+@media (max-width: 768px) {
+  .controversies-persistence-container {
+    padding: 1rem;
+  }
+
+  .controversies-persistence-title {
+    font-size: 1.5rem;
+  }
+
+  .controversies-persistence-content {
+    font-size: 0.9rem;
+  }
+}
+```

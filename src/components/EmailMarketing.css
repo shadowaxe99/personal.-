@@ -1,0 +1,65 @@
+.email-marketing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.email-marketing-header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.email-marketing-form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.email-marketing-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.email-marketing-input {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.email-marketing-submit {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-marketing-submit:hover {
+  background-color: #003d82;
+}
+
+.email-marketing-description {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .email-marketing-form {
+    width: 90%;
+  }
+}
