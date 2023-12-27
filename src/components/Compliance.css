@@ -1,0 +1,88 @@
+.compliance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compliance-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.compliance-content {
+  max-width: 800px;
+  text-align: justify;
+}
+
+.compliance-list {
+  list-style: none;
+  padding: 0;
+}
+
+.compliance-list-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.compliance-list-item-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.compliance-list-item-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.compliance-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.compliance-badge-important {
+  background-color: #dc3545;
+}
+
+.compliance-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.compliance-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .compliance-container {
+    padding: 10px;
+  }
+
+  .compliance-title {
+    font-size: 20px;
+  }
+
+  .compliance-content {
+    max-width: 100%;
+  }
+}

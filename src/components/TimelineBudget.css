@@ -1,0 +1,136 @@
+```css
+/* src/components/TimelineBudget.css */
+
+.timeline-budget-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
+  background-color: #e9ecef;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-30px);
+}
+
+.timeline-item:nth-child(even) {
+  float: right;
+  clear: left;
+  transform: translateX(30px);
+}
+
+.timeline-item-content {
+  position: relative;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item-content:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #ffffff;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content:before {
+  right: auto;
+  left: -15px;
+  border-left: none;
+  border-right: 15px solid #ffffff;
+}
+
+.timeline-item-content h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.timeline-item-content time {
+  display: block;
+  margin-bottom: 15px;
+  color: #999999;
+  font-size: 0.8em;
+}
+
+.timeline-item-content p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.timeline-item-content .budget-detail {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-left: 3px solid #007bff;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 767px) {
+  .timeline-item {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: none;
+  }
+
+  .timeline:before {
+    left: 20px;
+  }
+
+  .timeline-item:nth-child(odd) {
+    float: none;
+    clear: none;
+  }
+
+  .timeline-item:nth-child(even) {
+    float: none;
+    clear: none;
+  }
+
+  .timeline-item-content:before {
+    left: -15px;
+    border-left: none;
+    border-right: 15px solid #ffffff;
+  }
+}
+```
