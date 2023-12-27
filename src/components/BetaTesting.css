@@ -1,0 +1,81 @@
+```css
+.beta-testing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.beta-testing-header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.beta-testing-description {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.beta-testing-form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.beta-testing-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.beta-testing-submit {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.beta-testing-submit:hover {
+  background-color: #0056b3;
+}
+
+.beta-testing-feedback {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #28a745;
+}
+
+.beta-testing-error {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .beta-testing-container {
+    padding: 1rem;
+  }
+
+  .beta-testing-header {
+    font-size: 1.5rem;
+  }
+
+  .beta-testing-description {
+    font-size: 0.9rem;
+  }
+}
+```

@@ -1,0 +1,76 @@
+```css
+/* SEOStrategy.css */
+
+.seo-strategy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.seo-strategy-header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.seo-strategy-content {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.seo-keywords-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.seo-keywords-list li {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.seo-strategy-tips {
+  border-top: 1px solid #dee2e6;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.seo-tip {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.seo-tip strong {
+  color: #212529;
+}
+
+.seo-strategy-footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+  border-top: 1px solid #dee2e6;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .seo-strategy-container {
+    padding: 10px;
+  }
+
+  .seo-strategy-header {
+    font-size: 1.5rem;
+  }
+
+  .seo-strategy-content {
+    padding: 0 10px;
+  }
+}
+```

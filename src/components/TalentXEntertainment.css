@@ -1,0 +1,139 @@
+```css
+/* TalentXEntertainment.css */
+
+.talentx-entertainment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.talentx-header {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.talentx-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.talentx-overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.talentx-overview-item {
+  flex-basis: calc(50% - 1rem);
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.talentx-overview-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.talentx-overview-item h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.talentx-overview-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.talentx-global-representation {
+  background-color: #e9ecef;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.talentx-global-representation h4 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.talentx-global-representation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.talentx-global-representation li {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.talentx-global-representation li:last-child {
+  margin-bottom: 0;
+}
+
+.talentx-global-representation li h5 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.talentx-global-representation li p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.talentx-mentorship {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.talentx-mentorship h4 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.talentx-mentorship p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.talentx-mentorship a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.talentx-mentorship a:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .talentx-overview-item {
+    flex-basis: 100%;
+  }
+}
+```
